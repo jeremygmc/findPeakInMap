@@ -78,10 +78,10 @@ def download(url, file):
         urlretrieve(url,file)
         print("OK")
         
-from G5_T14 import *
+from findPeakInMap import *
 
 # Test case
-file_name = "map6.txt"  # <---- CHANGE CSV FILE NAME HERE to use a different map
+file_name = "map1.txt"  # <---- CHANGE CSV FILE NAME HERE to use a different map
 
 import time, copy
 # (1) ----- prepare data ------
